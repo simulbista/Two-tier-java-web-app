@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+	font-weight: bold;
+	color:#d0d0d0;
+}
+body{
+		padding-top:100px;
+}
+
+table {
+	background-color: rgb(42 78 74);
+	border: 1px solid white;
+	padding: 20px;
+	margin: auto;
+	width: 30%;
+}
+
+.title {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: #ff8040;
+}
+
+.subtitle {
+	padding : 5px 0px;
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align: center;
+}
+
+td {
+	width: 40px;
+	padding: 5px 10px;
+}
+
+#buttons{
+	text-align: center;
+}

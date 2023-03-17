@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Registration</title>
+<link rel='stylesheet' href='form.css'>
+</head>
+<body>
+	<div class="main">
+		<form action="UserProcess" method="post">
+			<table border='1'>
+				<tr>
+					<td colspan="2"><div class="title">USER REGISTRATION</div><div class="subtitle">* Required Fields</div>
+					</td>
+				</tr>
+				<tr>
+					<td><label>First Name*:</label><input type="text" name="fname"></td>
+					<td><label>Last Name*:</label><input type="text" name="lname"></td>
+				</tr>
+				<tr>
+					<td><label>Email*:</label><input type="email" name="email"></td>
+					<td><label>Zip Code*:</label><input type="text" name="zcode"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><label>User Name*:</label><br><input type="text" name="uname">
+					</td>
+				</tr>
+				<tr>
+					<td><label>Password*:</label><input type="password"
+						name="pass"></td>
+					<td><label>Confirm Password*:</label><input type="password"
+						name="repass"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><label>What music are you interested in?</label> <br>
+						<input type="checkbox" name="music" value="Rock"> <label
+						for="music1">Rock</label><br> 
+						
+						<input type="checkbox"
+						name="music" value="Pop"> <label for="music2">Pop</label><br>
+						
+						<input type="checkbox" name="music" value="Bluegrass"> <label
+						for="music3">Bluegrass</label><br> 
+						
+						<input type="checkbox"
+						name="music" value="Blues"> <label for="music4">Blues</label><br>
+						
+						<input type="checkbox" name="music" value="Jazz"> <label
+						for="music5">Jazz</label><br> 
+						
+						<input type="checkbox"
+						name="music" value="Country"> <label for="music6">Country</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><label>Would you like to receive e-mail
+							notifications on our special sales?</label><br> <input type="radio"
+						name="notification" value="Yes" checked> <label for="yes">Yes</label><br>
+						<input type="radio" name="notification" value="No"> <label
+						for="no">No</label></td>
+				</tr>
+				<tr>
+					<td colspan="2" id="buttons">
+						<button type="submit">Submit Form</button>
+						<button type="reset">Reset</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
